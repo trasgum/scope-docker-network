@@ -2,7 +2,7 @@
 
 The docker network plugin is a Python application that asks docker for the attached docker network for each container, providing **container-level** name in the [Weave Scope](https://github.com/weaveworks/scope) UI.
 
-## How to Run Scope Volume Count Plugin
+## How to Run Scope Docker Network Plugin
 
 * Using a pre-built Docker image
 
@@ -12,7 +12,7 @@ If you want to make sure of running the latest available version of the plugin, 
 docker pull trasgum/scope-docker-network:latest
 ```
 
-To run the Scope Volume Count plugin you just need to run the following command.
+To run the Scope docker network plugin you just need to run the following command.
 
 ```
 docker run --rm -ti \
